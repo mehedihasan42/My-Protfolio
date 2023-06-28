@@ -1,11 +1,16 @@
 import React from 'react';
 import { HiMenu } from "react-icons/hi";
+import { NavLink } from 'react-router-dom';
+// import { Link, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+
 
 const NavBar = () => {
     const text = <div className='text-white flex'>
-     <li><a>Item 1</a></li>
-     <li><a>Item2</a></li>
-     <li><a>Item 3</a></li>
+       <li> <NavLink to="/about" activeClassName="active">About</NavLink></li>
+       <li><NavLink to="/skills">Skills</NavLink></li>
+       <li><NavLink to="/project">Projects</NavLink></li>
+       <li><NavLink to="/contact">Contact</NavLink></li>
+       <li><NavLink>Tools</NavLink></li>
     </div>
     return (
         <div className="navbar bg-orange-400 py-2">

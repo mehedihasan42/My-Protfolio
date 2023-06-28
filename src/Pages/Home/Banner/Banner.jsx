@@ -4,7 +4,7 @@ import { useTypewriter } from 'react-simple-typewriter';
 
 const Banner = () => {
     const [text] = useTypewriter({
-        words: ['FRONT-END DEVELOPER', 'REACT DEVELOPER', 'UI DESIGNER'],
+        words: ['FRONT-END DEVELOPER', 'REACT DEVELOPER', 'MERN STACK DEVELOPER'],
         loop: true,
         typeSpeed:'20',
         deleteSpeed:40,
@@ -15,7 +15,7 @@ const Banner = () => {
         <div className="hero-content flex-col lg:flex-row-reverse">
          <div> <img src={img} className="max-w-sm rounded-lg shadow-2xl" /></div>
           <div className=''>
-            <h2 className='text-5xl'>Hello</h2>
+            <h2 data-aos="zoom-out-left" className='text-5xl'>Hello</h2>
             <h1 className="text-5xl font-bold">I AM {' '}
             <span className='text-orange-400'>{text}</span>
             </h1>

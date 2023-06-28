@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <div className='bg-neutral-200 py-20'>
             <Heading heading={'My skills'}></Heading>
-           <div className='lg:ml-96 lg:pl-28'>
+           <div className=''>
            <FirstColums></FirstColums>
            <SecoundColums></SecoundColums>
            </div>
