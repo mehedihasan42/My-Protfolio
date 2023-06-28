@@ -6,11 +6,11 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     const text = <div className='text-white flex'>
+       <li> <NavLink to="/" activeClassName="active">Home</NavLink></li>
        <li> <NavLink to="/about" activeClassName="active">About</NavLink></li>
        <li><NavLink to="/skills">Skills</NavLink></li>
        <li><NavLink to="/project">Projects</NavLink></li>
        <li><NavLink to="/contact">Contact</NavLink></li>
-       <li><NavLink>Tools</NavLink></li>
     </div>
     return (
         <div className="navbar bg-orange-400 py-2">

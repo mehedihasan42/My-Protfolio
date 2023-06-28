@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 
 const Tools = () => {
     return (
-        <div className='flex items-center bg-orange-400 py-6'>
+        <div className='flex items-center bg-orange-400 lg:mt-8 py-6'>
             <h2 className='w-56 ml-12 rounded font-extrabold text-fuchsia-700 text-3xl'>Tools I Use</h2>
             <Marquee>
             <FaGithub className='text-6xl lg:mx-4'/>

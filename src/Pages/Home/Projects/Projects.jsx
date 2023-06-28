@@ -21,7 +21,7 @@ const Projects = () => {
     };
     return (
         <div className='bg-base-200 py-12'>
-            <Heading heading={'My Project'}></Heading>
+            <Heading heading={'My popular Project'}></Heading>
             <div className='flex space-x-10 ml-32'>
                 {
                     cards.map(card =>
