@@ -4,7 +4,7 @@ import Heading from '../Components/Heading/Heading';
 
 const About = () => {
     return (
-        <div>
+        <div className='my-12'>
           <Heading heading={'About Me'}></Heading>
            <div className="hero">
             <div className="hero-content flex-col lg:flex-row">
