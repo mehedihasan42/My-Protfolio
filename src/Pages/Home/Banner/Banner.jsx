@@ -7,8 +7,8 @@ const Banner = () => {
         words: ['FRONT-END DEVELOPER', 'REACT DEVELOPER', 'UI DESIGNER'],
         loop: true,
         typeSpeed:'20',
-        deleteSpeed:10,
-        delaySpeed:2000,
+        deleteSpeed:40,
+        delaySpeed:1500,
       })
     return (
         <div className="hero w-full bg-base-200">

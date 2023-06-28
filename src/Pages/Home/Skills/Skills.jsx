@@ -6,7 +6,7 @@ import SecoundColums from './SecoundColums';
 
 const Skills = () => {
     return (
-        <div className='bg-neutral-200 py-12'>
+        <div className='bg-neutral-200 py-20'>
             <Heading heading={'My skills'}></Heading>
            <div className='lg:ml-96 lg:pl-28'>
            <FirstColums></FirstColums>
