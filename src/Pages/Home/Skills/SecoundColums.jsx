@@ -7,9 +7,9 @@ AOS.init();
 
 const SecoundColums = () => {
     return (
-        <div data-aos="fade-down-left" className='lg:flex justify-center space-x-10 mt-10 mb-6 lg:mb-0 space-y-4 lg:space-y-0'>
+        <div data-aos="fade-down-left" className='lg:flex justify-center space-x-2 lg:space-x-10 mt-10 mb-6 lg:mb-0 space-y-4 lg:space-y-0'>
             {/* circel-1 */}
-            <div className='ml-12 lg:ml-0' style={{ width: 120, position: 'relative' }}>
+            <div className='ml-2 lg:ml-0' style={{ width: 120, position: 'relative' }}>
                 <div style={{}} className='text-center'>
                     <CircularProgressbar value={90} text={`${90}%`} />
                     <span style={{ position: 'absolute', top: 70, left: 40 }}><SiNodedotjs className='text-3xl text-emerald-600' /></span>

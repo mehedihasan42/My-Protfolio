@@ -1,5 +1,6 @@
 import React from 'react';
-import img from '../../../assets/my picture.jpg'
+import img from '../../../assets/my picture.jpg';
+import myResume from '../../../assets/DEWAN MEHEDI HASAN.pdf';
 import { useTypewriter } from 'react-simple-typewriter';
 
 const Banner = () => {
@@ -19,7 +20,14 @@ const Banner = () => {
             <h1 className="text-2xl lg:text-5xl font-bold">I AM {' '}
             <span className='text-orange-400'>{text}</span>
             </h1>
-            <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <p className="py-6">Web Development is my passion.I can learn quickly and enjoy coming up with new ideas.
+           {"I'm"} excited to use my technical skills, adaptability, and dedication to excel in web development and make a big impact.
+            </p>
+           <button className='btn btn-outline btn-neutral'>
+           <a href={myResume} target="_blank" rel="noopener noreferrer" download='Resume of DEWAN MEHEDI HASAN'>
+           Download RESUME
+          </a>
+           </button>
           </div>
         </div>
       </div>

@@ -25,7 +25,8 @@ const About = () => {
                 <h1 className="text-2xl ml-20 lg:ml-0 lg:text-3xl font-medium uppercase">My name is <span className='text-orange-400'>dewan mehedi hasan</span></h1>
                 </Marquee>
                 <h2 className='text-xl lg:text-2xl font-light'>From Dhaka,Bangladesh.</h2>
-                <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <p className="py-6">Enthusiastic web developer eager to kick-start my career in the field. Passionate about coding and creating user-friendly websites. 
+                 to continuous learning and staying up-to-date with the latest industry trends. </p>
                 <button className="btn btn-outline btn-neutral">
                   <Link to='/skills'>Get Started</Link>
                 </button>
