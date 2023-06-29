@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 
 
 const NavBar = () => {
-    const text = <div className='text-white flex'>
+    const text = <div className='text-white lg:flex'>
        <li> <NavLink to="/" activeClassName="active">Home</NavLink></li>
        <li> <NavLink to="/about" activeClassName="active">About</NavLink></li>
        <li><NavLink to="/skills">Skills</NavLink></li>
@@ -29,7 +29,7 @@ const NavBar = () => {
             </div>
             {/* -------------small device----------- */}
             <div className='navbar hidden lg:grid grid-cols-1'>
-                <div><a className="normal-case text-2xl font-bold ml-4">Me<span className='text-gray-300'>he</span>di</a></div>
+                <div><a className="normal-case text-2xl font-bold lg:ml-4">Me<span className='text-gray-300'>he</span>di</a></div>
                 <div className='text-xs ml-6 font-bold'>Protfolio</div>
             </div>
             <div className="navbar hidden lg:flex">

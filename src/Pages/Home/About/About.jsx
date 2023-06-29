@@ -4,6 +4,7 @@ import Heading from '../Components/Heading/Heading';
 import Marquee from 'react-fast-marquee';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 AOS.init();
 
@@ -20,7 +21,9 @@ const About = () => {
                 </Marquee>
                 <h2 className='text-2xl font-light'>From Dhaka,Bangladesh.</h2>
                 <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <button className="btn btn-outline btn-neutral">Get Started</button>
+                <button className="btn btn-outline btn-neutral">
+                  <Link to='/skills'>Get Started</Link>
+                </button>
               </div>
             </div>
           </div>
