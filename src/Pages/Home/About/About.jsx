@@ -19,7 +19,7 @@ const About = () => {
                 <Marquee className='overflow-hidden'>
                 <h1 className="text-2xl ml-20 lg:ml-0 lg:text-3xl font-medium uppercase">My name is <span className='text-orange-400'>dewan mehedi hasan</span></h1>
                 </Marquee>
-                <h2 className='text-2xl font-light'>From Dhaka,Bangladesh.</h2>
+                <h2 className='text-xl lg:text-2xl font-light'>From Dhaka,Bangladesh.</h2>
                 <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 <button className="btn btn-outline btn-neutral">
                   <Link to='/skills'>Get Started</Link>
