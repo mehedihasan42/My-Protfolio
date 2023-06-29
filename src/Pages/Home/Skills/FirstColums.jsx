@@ -11,7 +11,7 @@ const FirstColums = () => {
     return (
              <div data-aos="fade-down-right" className='lg:flex justify-center mt-10 lg:mt-0 space-x-10 space-y-4 lg:space-y-0'>
                 {/* circel-1 */}
-                <div className='ml-12 lg:ml-0' style={{ width: 120, position: 'relative' }}>
+                <div className='ml-8 lg:ml-0' style={{ width: 120, position: 'relative' }}>
                     <div style={{stroke:'red'}} className='text-center'>
                         <CircularProgressbar className='custom-progressbar' value={100} text={`${100}%`} />
                         <span style={{ position: 'absolute', top: 70, left: 40 }}><AiFillHtml5 className='text-4xl text-red-400' /></span>

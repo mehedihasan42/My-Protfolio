@@ -7,7 +7,7 @@ AOS.init();
 
 const SecoundColums = () => {
     return (
-        <div data-aos="fade-down-left" className='lg:flex justify-center space-x-10 mt-10 space-y-4 lg:space-y-0'>
+        <div data-aos="fade-down-left" className='lg:flex justify-center space-x-10 mt-10 mb-6 lg:mb-0 space-y-4 lg:space-y-0'>
             {/* circel-1 */}
             <div className='ml-12 lg:ml-0' style={{ width: 120, position: 'relative' }}>
                 <div style={{}} className='text-center'>
