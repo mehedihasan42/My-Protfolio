@@ -9,7 +9,7 @@ AOS.init();
 
 const FirstColums = () => {
     return (
-             <div data-aos="fade-down-right" className='flex justify-center space-x-10'>
+             <div data-aos="fade-down-right" className='lg:flex justify-center space-x-10'>
                 {/* circel-1 */}
                 <div style={{ width: 120, position: 'relative' }}>
                     <div style={{stroke:'red'}} className='text-center'>

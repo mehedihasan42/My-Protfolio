@@ -22,11 +22,11 @@ const Projects = () => {
     return (
         <div className='bg-base-200 py-12'>
             <Heading heading={'My popular Project'}></Heading>
-            <div className='flex space-x-10 ml-32'>
+            <div className='lg:flex justify-center lg:space-x-10 space-y-5'>
                 {
                     cards.map(card =>
                         <div data-aos="fade-up-left"
-                         key={card.id} className="card card-compact w-96 bg-base-100 shadow-xl">
+                         key={card.id} className="card card-compact w-80  mx-auto lg:mx-0 lg:w-96 bg-base-100 shadow-xl">
                             <figure><img src={card.image} alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title">{card.project_name}</h2>

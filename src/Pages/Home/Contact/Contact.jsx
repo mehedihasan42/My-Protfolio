@@ -5,7 +5,7 @@ const Contact = () => {
     return (
         <div className='bg-slate-200 pt-4'>
            <Heading heading={'Contact me'}></Heading>
-          <div className='lg:flex justify-center space-x-10'>
+          <div className='lg:flex justify-center lg:space-x-10 space-y-2'>
             <div data-aos="fade-down-right" className='bg-white p-4 rounded text-center'>
                 <p>Phone</p>
                 <p>01777349196</p>
@@ -24,7 +24,7 @@ const Contact = () => {
         <div className="hero-content w-full">
           <div className="card flex-shrink-0 w-full">
             <form action='https://formspree.io/f/xoqoanpp' method='POST' className="card-body">
-             <div className='grid grid-cols-2'>
+             <div className='grid space-y-2 lg:grid-cols-2'>
              <div className="form-control lg:my-2">
                 <input name='name' type="text" placeholder="Enter Name" className="input input-bordered lg:mx-2" required/>
               </div>

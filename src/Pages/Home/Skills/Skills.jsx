@@ -9,12 +9,12 @@ const Skills = () => {
     return (
         <div className='bg-neutral-200 py-20'>
             <Heading heading={'My skills'}></Heading>
-           <div className=''>
-           <FirstColums></FirstColums>
+          <div className="flex lg:grid grid-cold-2">
+          <FirstColums></FirstColums>
            <SecoundColums></SecoundColums>
+          </div>
            <Tools></Tools>
            </div>
-        </div>
     );
 };
 
