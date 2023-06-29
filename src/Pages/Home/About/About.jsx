@@ -5,11 +5,16 @@ import Marquee from 'react-fast-marquee';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 AOS.init();
 
 const About = () => {
     return (
+       <>
+            <Helmet>
+                <title>Protfolio - About</title>
+            </Helmet>
         <div className='my-12 overflow-hidden'>
           <Heading heading={'About Me'}></Heading>
            <div className="hero">
@@ -28,6 +33,7 @@ const About = () => {
             </div>
           </div>
         </div>
+       </>
     );
 };
 

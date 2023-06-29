@@ -1,9 +1,13 @@
 import React from 'react';
 import Heading from '../Components/Heading/Heading';
+import { Helmet } from 'react-helmet';
 
 const Contact = () => {
     return (
         <div className='bg-slate-200 pt-4'>
+           <Helmet>
+                <title>Protfolio - Contact</title>
+            </Helmet>
            <Heading heading={'Contact me'}></Heading>
           <div className='lg:flex justify-center lg:space-x-10 space-y-2'>
             <div data-aos="fade-down-right" className='bg-white p-4 rounded text-center'>

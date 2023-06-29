@@ -3,6 +3,7 @@ import Heading from '../Components/Heading/Heading';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { CiShare1 } from "react-icons/ci";
+import { Helmet } from 'react-helmet';
 
 AOS.init({duration: 500});
 
@@ -10,7 +11,7 @@ const Projects = () => {
     const [cards, setCard] = useState([])
     useEffect(() => {
         AOS.refresh()
-        fetch('fakeData.json')
+        fetch('http://localhost:5000/projects')
         .then(res => res.json())
         .then(data => setCard(data))
        
@@ -21,6 +22,9 @@ const Projects = () => {
     };
     return (
         <div className='bg-base-200 py-12'>
+             <Helmet>
+                <title>Protfolio - Project</title>
+            </Helmet>
             <Heading heading={'My popular Project'}></Heading>
             <div className='lg:flex justify-center lg:space-x-10 space-y-5'>
                 {
