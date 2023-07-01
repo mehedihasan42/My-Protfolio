@@ -12,7 +12,7 @@ const Projects = () => {
     const [cards, setCard] = useState([])
     useEffect(() => {
         AOS.refresh()
-        fetch('https://my-protfolio-server-beta.vercel.app/projects')
+        fetch('data.json')
         .then(res => res.json())
         .then(data => setCard(data))
        
@@ -41,7 +41,7 @@ const Projects = () => {
                          key={card.id} className="card card-compact w-80 mx-auto lg:mx-0 lg:w-96 bg-base-100 shadow-xl">
                             <figure><img src={card.image} alt="Shoes" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">{card.project_name}</h2>
+                                <h2 className="card-title">{card.project-name}</h2>
                              {/* ----Accordion */}
                              <div className="collapse bg-base-200">
                 <input
