@@ -3,25 +3,25 @@
         "id":1,
         "image":"https://i.ibb.co/rQzSYj2/banner-jpg-1.jpg",
         "link":"https://toyes-house.web.app/?fbclid=IwAR0mpqwi2cC3XaRbOO7O31qrfh_gNX6HYuGRCupR86ENAQbg_rkx7yleclg",
-        "project-name":"Toys House",
+        "project_name":"Toys House",
         "feature1":"An e-commerce website where a seller add there product and buyers can purchase them.",
         "feature2":"Seller can update and delete their products.",
         "feature3":"Users verified by JWT token."
     },
     {
-        "id":1,
+        "id":2,
         "image":"https://i.ibb.co/JmM5235/banner-jpg-2.jpg",
         "link":"https://surtal-music.web.app/",
-        "project-name":"Music School",
+        "project_name":"Music School",
         "feature1":"Different dashboard for Users,Instractor and Admin.",
         "feature2":"Added AOS for awsome animation",
         "feature3":"After login any user can book or enroll in a class"
     },
     {
-        "id":1,
+        "id":3,
         "image":"https://i.ibb.co/9gJhzK1/banner-jpg-3.jpg",
         "link":"https://choose-chefs.web.app/",
-        "project-name":"Chef's House",
+        "project_name":"Chef's House",
         "feature1":"Only login users can see the chefs details.",
         "feature2":"Use of NavLink for clear navigation.",
         "feature3":"All users authenticated by firebase."

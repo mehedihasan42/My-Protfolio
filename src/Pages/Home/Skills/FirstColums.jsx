@@ -27,14 +27,14 @@ const FirstColums = () => {
                 {/* circel-3 */}
                 <div style={{ width: 120, position: 'relative' }}>
                     <div style={{}} className='text-center'>
-                        <CircularProgressbar value={70} text={`${70}%`} />
+                        <CircularProgressbar value={60} text={`${60}%`} />
                         <span style={{ position: 'absolute', top: 70, left: 40 }}><SiJavascript className='text-4xl rounded text-yellow-500' /></span>
                     </div>
                 </div>
                 {/* circel-3 */}
                 <div style={{ width: 120, position: 'relative' }}>
                     <div style={{}} className='text-center'>
-                        <CircularProgressbar value={70} text={`${70}%`} />
+                        <CircularProgressbar value={60} text={`${60}%`} />
                         <span style={{ position: 'absolute', top: 70, left: 40 }}><FaReact className='text-4xl font-extrabold rounded-lg text-sky-300' /></span>
                     </div>
                 </div>

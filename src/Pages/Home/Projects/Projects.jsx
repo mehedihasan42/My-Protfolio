@@ -41,7 +41,7 @@ const Projects = () => {
                          key={card.id} className="card card-compact w-80 mx-auto lg:mx-0 lg:w-96 bg-base-100 shadow-xl">
                             <figure><img src={card.image} alt="Shoes" /></figure>
                             <div className="card-body">
-                                <h2 className="card-title">{card.project-name}</h2>
+                                <h2 className="card-title">Project Name: <span className='text-orange-500'>{card.project_name}</span></h2>
                              {/* ----Accordion */}
                              <div className="collapse bg-base-200">
                 <input
