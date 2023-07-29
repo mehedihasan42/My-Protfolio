@@ -34,7 +34,7 @@ const Projects = () => {
                 <title>Protfolio - Project</title>
             </Helmet>
             <Heading heading={'My popular Projects'}></Heading>
-            <div className='lg:flex justify-center lg:space-x-10 space-y-5'>
+            <div className='grid lg:grid-cols-3 justify-items-center space-y-5'>
                 {
                     cards.map(card =>
                         <div data-aos="fade-up-left"
