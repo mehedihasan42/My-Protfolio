@@ -57,7 +57,7 @@ const Projects = () => {
                   See Features {activeAccordion === card.id ? <IoIosArrowDropupCircle/> : <IoIosArrowDropdownCircle/>}
                 </div>
                 {activeAccordion === card.id && (
-                  <div className="collapse-content">
+                  <div className="collapse-content space-y-2">
                     <p>1. {card.feature1}</p>
                     <p>2. {card.feature2}</p>
                     <p>3. {card.feature3}</p>
